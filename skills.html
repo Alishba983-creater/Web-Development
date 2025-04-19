@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills Tab</title>
+  <style>
+ body{
+    background-color:#f2f9f9 ;
+ }
+ .skills-table{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+ }   
+ 
+  li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 0;
+    display: block;
+    text-align: left;
+    max-width: 800px;
+    list-style-type: none;
+
+  }
+  ul{
+    padding-left: 0;    /* Remove any extra space */
+    margin-left: 0;
+  }
+  li::before {
+  content: "✦ ";
+  color:#2c3e50;
+}
+ .column{
+         display: block;
+        box-shadow: 0 4px 8px #367588; 
+        border-radius: 8px; 
+        background-color: white;
+        color:#367588;
+        height:300px;    
+        width:300px;   
+        padding:20px;
+ }
+ h1{
+    margin-top: 50px;
+    color: #003153;
+    font-weight: bolder;
+    font-size: 5em;
+    display: block;
+    text-align: center;
+}
+  </style>
+</head>
+<body>
+  <div class="skills-section">
+    <h1>MY SKILLS</h1>
+    <div class="skills-table">
+      <div class="column">
+        <h2>Personal Skills</h2>
+        <ul>
+          <li>Adaptability</li>
+          <li>Problem Solving</li>
+          <li>Time Management</li>
+          <li>Strong Work Ethic</li>
+          <li>Effective Communication</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h2>Professional Skills</h2>
+        <ul>
+          <li>Programming (Java, Python, C#)</li>
+          <li>Web Development (HTML, CSS, JS)</li>
+          <li>Software Design</li>
+          <li>Data Structures & Algorithms</li>
+          <li>Team Collaboration Tools (Git, Jira)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
